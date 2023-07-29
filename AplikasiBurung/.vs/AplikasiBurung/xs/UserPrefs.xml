@@ -6,34 +6,28 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Activities/HistoryActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/values/strings.xml">
     <Files>
-      <File FileName="Activities/TambahJadwalActivity.cs" Line="106" Column="29" />
-      <File FileName="Activities/HistoryActivity.cs" Line="47" Column="67" />
-      <File FileName="Services/MyAlarmReceiver.cs" Line="41" Column="87" />
+      <File FileName="Activities/TambahJadwalActivity.cs" />
+      <File FileName="Activities/HistoryActivity.cs" Line="63" Column="6" />
+      <File FileName="Services/MyAlarmReceiver.cs" />
+      <File FileName="Resources/values/strings.xml" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AplikasiBurung" expanded="True">
             <Node name="AplikasiBurung" expanded="True">
-              <Node name="Activities" expanded="True">
-                <Node name="HistoryActivity.cs" selected="True" />
-              </Node>
+              <Node name="Activities" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Helper" expanded="True" />
               <Node name="ListViews" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="layout" expanded="True" />
-                <Node name="mipmap-anydpi-v26" expanded="True" />
-                <Node name="mipmap-hdpi" expanded="True" />
-                <Node name="mipmap-mdpi" expanded="True" />
-                <Node name="mipmap-xhdpi" expanded="True" />
-                <Node name="mipmap-xxhdpi" expanded="True" />
-                <Node name="mipmap-xxxhdpi" expanded="True" />
+                <Node name="values" expanded="True">
+                  <Node name="strings.xml" selected="True" />
+                </Node>
               </Node>
               <Node name="SD" expanded="True" />
               <Node name="Services" expanded="True" />
