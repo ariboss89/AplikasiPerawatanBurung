@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+		android:layout_gravity="center_vertical"
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:background="@color/colorAccent"
+		android:elevation="4dp"
+		android:padding="10dp"
+		android:layout_height="?android:attr/actionBarSize">
+
+		<LinearLayout
+			android:paddingTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center_vertical|center_horizontal"
+			android:weightSum="1">
+
+			<ImageView
+				android:src="@drawable/arrow"
+				android:layout_width="wrap_content"
+				android:layout_height ="wrap_content"
+				android:id="@+id/imgBack"
+				android:paddingLeft="-20dp"
+				android:layout_weight="0.1"/>
+
+			<TextView
+				android:layout_width="0dp"
+				android:gravity="center"
+				android:layout_height="match_parent"
+				android:layout_weight="0.9"
+				android:textColor="@color/colorWhite"
+				android:textStyle="bold"
+				android:text="INFORMASI MURAI BATU"
+                />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+			android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:padding="10dp">
+
+			<ListView
+				android:id="@+id/lvBurung"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{0CA90A5F-AD7B-49D9-AF29-3259C9E29E44}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Activities/MainActivity.cs" relfile="Activities/MainActivity.cs" line="80" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Activities/HistoryActivity.cs">
+    <Files>
+      <File FileName="Activities/TambahJadwalActivity.cs" Line="106" Column="29" />
+      <File FileName="Activities/HistoryActivity.cs" Line="47" Column="67" />
+      <File FileName="Services/MyAlarmReceiver.cs" Line="41" Column="87" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AplikasiBurung" expanded="True">
+            <Node name="AplikasiBurung" expanded="True">
+              <Node name="Activities" expanded="True">
+                <Node name="HistoryActivity.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Helper" expanded="True" />
+              <Node name="ListViews" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="layout" expanded="True" />
+                <Node name="mipmap-anydpi-v26" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+                <Node name="mipmap-mdpi" expanded="True" />
+                <Node name="mipmap-xhdpi" expanded="True" />
+                <Node name="mipmap-xxhdpi" expanded="True" />
+                <Node name="mipmap-xxxhdpi" expanded="True" />
+              </Node>
+              <Node name="SD" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AplikasiBurung PreferredExecutionTarget="Android.pixel_5_-_api_32" AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+</Properties>

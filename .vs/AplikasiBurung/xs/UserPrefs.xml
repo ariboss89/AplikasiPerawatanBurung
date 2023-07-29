@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{0CA90A5F-AD7B-49D9-AF29-3259C9E29E44}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AplikasiBurung" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Activities/MainActivity.cs" relfile="AplikasiBurung/Activities/MainActivity.cs" line="97" column="1" />
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Data/Database.cs" relfile="AplikasiBurung/Data/Database.cs" line="61" column="1" />
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Data/Database.cs" relfile="AplikasiBurung/Data/Database.cs" line="62" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AplikasiBurung PreferredExecutionTarget="Android.pixel_5_-_api_32" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

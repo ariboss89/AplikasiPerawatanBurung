@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+		android:layout_gravity="center_vertical"
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:background="@color/colorAccent"
+		android:elevation="4dp"
+        android:padding="10dp"
+		android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:text="APLIKASI INFORMASI BURUNG"
+                />
+
+        </LinearLayout>
+	</LinearLayout>
+    
+    <HorizontalScrollView
+        android:background="@color/colorWheat"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+       
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabInfo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:fabCustomSize="90dp"
+            app:maxImageSize="60dp"
+            android:layout_gravity="center"
+            app:layout_anchorGravity="bottom|center|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/error"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabJadwal"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:fabCustomSize="90dp"
+            app:maxImageSize="60dp"    
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/owl"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabHistory"           
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:maxImageSize="50dp"
+            app:fabCustomSize="90dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:text="Actions"
+            android:textColor="@color/colorWhite"
+            app:srcCompat="@drawable/list"/>
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+
+            <ListView
+                android:id="@+id/lvJadwal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

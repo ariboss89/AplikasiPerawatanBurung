@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/AplikasiBurung.csproj": {}
+  },
+  "projects": {
+    "/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/AplikasiBurung.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/AplikasiBurung.csproj",
+        "projectName": "AplikasiBurung",
+        "projectPath": "/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/AplikasiBurung.csproj",
+        "packagesPath": "/Users/ariramadhan/.nuget/packages/",
+        "outputPath": "/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/ariramadhan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Refractored.Controls.CircleImageView": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Firebase.Iid": {
+              "target": "Package",
+              "version": "[121.1.0.10, )"
+            },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[123.1.2.2, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[118.2.0.2, )"
+            },
+            "sqlite-net": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "93133798662",
+    "project_id": "burungfcm",
+    "storage_bucket": "burungfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93133798662:android:3f48a919e6fa4a8c70f287",
+        "android_client_info": {
+          "package_name": "com.ari89tech.aplikasiburung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93133798662-5sfisfgsgfbqr6l7u9e37qp8lmhun70p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ari89tech.aplikasiburung",
+            "certificate_hash": "2cfb20093338b6607260041ccc830f07f74d4038"
+          }
+        },
+        {
+          "client_id": "93133798662-ubmqlu8blbr82alk55cvgqj674ptm5cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwk2L4yQS29zEgr-B5xRMIBBKZULD1YdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93133798662-ubmqlu8blbr82alk55cvgqj674ptm5cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
