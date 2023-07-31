@@ -1,44 +1,32 @@
 ﻿<Properties StartupConfiguration="{0CA90A5F-AD7B-49D9-AF29-3259C9E29E44}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Activities/MainActivity.cs" relfile="Activities/MainActivity.cs" line="80" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AplikasiBurung AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_5_-_api_32" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/values/strings.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/layout/IMakanLayout.xml">
     <Files>
-      <File FileName="Activities/TambahJadwalActivity.cs" />
-      <File FileName="Activities/HistoryActivity.cs" Line="63" Column="6" />
-      <File FileName="Services/MyAlarmReceiver.cs" />
-      <File FileName="Resources/values/strings.xml" Line="8" Column="1" />
+      <File FileName="Resources/layout/MainLayout.xml" Line="150" Column="12" />
+      <File FileName="Resources/layout/IMakanLayout.xml" Line="68" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AplikasiBurung" expanded="True">
+          <Node name="AplikasiBurung" expanded="True" selected="True">
             <Node name="AplikasiBurung" expanded="True">
-              <Node name="Activities" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Helper" expanded="True" />
-              <Node name="ListViews" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True">
-                  <Node name="strings.xml" selected="True" />
-                </Node>
+                <Node name="drawable" expanded="True" />
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
               </Node>
-              <Node name="SD" expanded="True" />
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AplikasiBurung PreferredExecutionTarget="Android.pixel_5_-_api_32" AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" />
   <MultiItemStartupConfigurations />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
 </Properties>

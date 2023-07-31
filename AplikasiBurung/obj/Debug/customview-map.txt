@@ -14,7 +14,6 @@ com.google.android.material.floatingactionbutton.FloatingActionButton;obj/Debug/
 com.google.android.material.floatingactionbutton.FloatingActionButton;obj/Debug/res/layout/mainlayout.xml
 corners;obj/Debug/res/drawable/round.xml
 de.hdodenhof.circleimageview.CircleImageView;obj/Debug/res/layout/burunglistview_layout.xml
-de.hdodenhof.circleimageview.CircleImageView;obj/Debug/res/layout/imakanlayout.xml
 de.hdodenhof.circleimageview.CircleImageView;obj/Debug/res/layout/iperawatan_layout.xml
 declare-styleable;/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/lp/0/jl/res/values/values.xml
 dimen;obj/Debug/res/values/dimens.xml
@@ -53,12 +52,11 @@ ListView;obj/Debug/res/layout/mainlayout.xml
 menu;obj/Debug/res/menu/menu_main.xml
 padding;obj/Debug/res/drawable/round.xml
 path;obj/Debug/res/drawable/arrow.xml
+path;obj/Debug/res/drawable/book.xml
 path;obj/Debug/res/drawable/calendar.xml
 path;obj/Debug/res/drawable/time.xml
 paths;/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/lp/48/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj/Debug/res/layout/content_main.xml
-RelativeLayout;obj/Debug/res/layout/imakanlayout.xml
-RelativeLayout;obj/Debug/res/layout/iperawatan_layout.xml
 RelativeLayout;obj/Debug/res/layout/menuinformasi.xml
 RelativeLayout;obj/Debug/res/layout/tambahjadwal_layout.xml
 resources;/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/googsvcsjson/values/goog_svcs_json.xml
@@ -68,6 +66,7 @@ resources;obj/Debug/res/values/dimens.xml
 resources;obj/Debug/res/values/ic_launcher_background.xml
 resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
+ScrollView;obj/Debug/res/layout/imakanlayout.xml
 shape;obj/Debug/res/drawable/circle.xml
 shape;obj/Debug/res/drawable/round.xml
 solid;obj/Debug/res/drawable/circle.xml
@@ -90,5 +89,6 @@ TextView;obj/Debug/res/layout/mainlayout.xml
 TextView;obj/Debug/res/layout/menuinformasi.xml
 TextView;obj/Debug/res/layout/tambahjadwal_layout.xml
 vector;obj/Debug/res/drawable/arrow.xml
+vector;obj/Debug/res/drawable/book.xml
 vector;obj/Debug/res/drawable/calendar.xml
 vector;obj/Debug/res/drawable/time.xml

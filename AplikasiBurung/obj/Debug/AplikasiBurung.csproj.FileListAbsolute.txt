@@ -9,6 +9,7 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/googsvcsjson/values/goog_svcs_json.xml
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/build.props
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/adb.props
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.AssemblyReference.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res.flag
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/79D2E2103213D2C2-files.cache
@@ -105,6 +106,11 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-xxxhdpi/ic_launcher.png
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/book.xml
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/jangkrikmb.jpeg
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/krotomb.jpeg
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/pakanlelemb.jpg
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/voermb.jpeg
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/uploadflags.txt
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/resolvedassemblies.hash
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/assets/AplikasiBurung.dll
@@ -516,4 +522,3 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.AssemblyReference.cache

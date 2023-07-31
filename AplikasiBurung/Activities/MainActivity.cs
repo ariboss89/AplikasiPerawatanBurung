@@ -80,10 +80,10 @@ namespace AplikasiBurung.Activities
                 //Toast.MakeText(this, e.ToString(), ToastLength.Long).Show();
             }
 
-            if (!GetString(Resource.String.google_app_id).Equals("1:93133798662:android:3f48a919e6fa4a8c70f287"))
-            {
-                throw new System.Exception("Invalid Json File");
-            }
+            //if (!GetString(Resource.String.google_app_id).Equals("1:93133798662:android:3f48a919e6fa4a8c70f287"))
+            //{
+            //    throw new System.Exception("Invalid Json File");
+            //}
 
             try
             {
