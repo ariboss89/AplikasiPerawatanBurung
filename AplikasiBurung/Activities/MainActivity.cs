@@ -41,7 +41,7 @@ namespace AplikasiBurung.Activities
         List<Penjadwalan> listJadwal = new List<Penjadwalan>();
         ListView lvJadwal;
         Database db = new Database();
-        FloatingActionButton btnJadwal, btnInfo, btnHistory;
+        FloatingActionButton btnJadwal, btnInfo, btnHistory, btnNews;
         [Obsolete]
         AppPreferences apps = new AppPreferences(Application.Context);
 
@@ -60,10 +60,12 @@ namespace AplikasiBurung.Activities
             btnJadwal = FindViewById<FloatingActionButton>(Resource.Id.fabJadwal);
             btnInfo = FindViewById<FloatingActionButton>(Resource.Id.fabInfo);
             btnHistory = FindViewById<FloatingActionButton>(Resource.Id.fabHistory);
+            btnNews = FindViewById<FloatingActionButton>(Resource.Id.fabNews);
 
             btnJadwal.Click += BtnJadwal_Click;
             btnInfo.Click += BtnInfo_Click;
             btnHistory.Click += BtnHistory_Click;
+            btnNews.Click += BtnNews_Click;
 
             try
             {
@@ -136,6 +138,13 @@ namespace AplikasiBurung.Activities
 
            // Thread ctThread = new Thread(LoadData);
 
+        }
+
+        private void BtnNews_Click(object sender, EventArgs e)
+        {
+            Intent intentx = new Intent(Application.Context, typeof(NewsActivity));
+            intentx.SetFlags(ActivityFlags.NewTask);
+            StartActivity(intentx);
         }
 
         //private void LoadData()

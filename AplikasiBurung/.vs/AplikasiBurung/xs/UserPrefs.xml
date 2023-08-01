@@ -1,25 +1,23 @@
 ﻿<Properties StartupConfiguration="{0CA90A5F-AD7B-49D9-AF29-3259C9E29E44}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.AplikasiBurung AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/layout/IMakanLayout.xml">
+  <MonoDevelop.Ide.ItemProperties.AplikasiBurung AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.RR8M3080SWF" AndroidDesignerPreferredDevice="Nexus 4" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.RR8M3080SWF" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Activities/NewsActivity.cs">
     <Files>
-      <File FileName="Resources/layout/MainLayout.xml" Line="150" Column="12" />
-      <File FileName="Resources/layout/IMakanLayout.xml" Line="68" Column="32" />
+      <File FileName="Activities/MainActivity.cs" Line="141" Column="10" />
+      <File FileName="Resources/layout/MainLayout.xml" Line="1" Column="1" />
+      <File FileName="Activities/NewsActivity.cs" Line="53" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AplikasiBurung" expanded="True" selected="True">
             <Node name="AplikasiBurung" expanded="True">
+              <Node name="Activities" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
                 <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -28,5 +26,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

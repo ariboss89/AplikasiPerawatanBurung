@@ -29,6 +29,7 @@ ImageView;obj/Debug/res/layout/imakanlayout.xml
 ImageView;obj/Debug/res/layout/iperawatan_layout.xml
 ImageView;obj/Debug/res/layout/jadwallistview_layout.xml
 ImageView;obj/Debug/res/layout/menuinformasi.xml
+ImageView;obj/Debug/res/layout/newslayout.xml
 ImageView;obj/Debug/res/layout/tambahjadwal_layout.xml
 include;obj/Debug/res/layout/activity_main.xml
 item;obj/Debug/res/drawable/imgcircle.xml
@@ -45,6 +46,7 @@ LinearLayout;obj/Debug/res/layout/iperawatan_layout.xml
 LinearLayout;obj/Debug/res/layout/jadwallistview_layout.xml
 LinearLayout;obj/Debug/res/layout/mainlayout.xml
 LinearLayout;obj/Debug/res/layout/menuinformasi.xml
+LinearLayout;obj/Debug/res/layout/newslayout.xml
 LinearLayout;obj/Debug/res/layout/tambahjadwal_layout.xml
 ListView;obj/Debug/res/layout/historylayout.xml
 ListView;obj/Debug/res/layout/iburunglayout.xml
@@ -87,8 +89,10 @@ TextView;obj/Debug/res/layout/iperawatan_layout.xml
 TextView;obj/Debug/res/layout/jadwallistview_layout.xml
 TextView;obj/Debug/res/layout/mainlayout.xml
 TextView;obj/Debug/res/layout/menuinformasi.xml
+TextView;obj/Debug/res/layout/newslayout.xml
 TextView;obj/Debug/res/layout/tambahjadwal_layout.xml
 vector;obj/Debug/res/drawable/arrow.xml
 vector;obj/Debug/res/drawable/book.xml
 vector;obj/Debug/res/drawable/calendar.xml
 vector;obj/Debug/res/drawable/time.xml
+WebView;obj/Debug/res/layout/newslayout.xml

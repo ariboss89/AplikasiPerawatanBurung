@@ -5185,9 +5185,10 @@ public final class R {
     public static final int view_tree_view_model_store_owner=0x7f08011f;
     public static final int visible=0x7f080120;
     public static final int visible_removing_fragment_view_tag=0x7f080121;
-    public static final int wide=0x7f080122;
-    public static final int withText=0x7f080123;
-    public static final int wrap_content=0x7f080124;
+    public static final int webView1=0x7f080122;
+    public static final int wide=0x7f080123;
+    public static final int withText=0x7f080124;
+    public static final int wrap_content=0x7f080125;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5280,17 +5281,18 @@ public final class R {
     public static final int menuinformasi=0x7f0b0038;
     public static final int mtrl_layout_snackbar=0x7f0b0039;
     public static final int mtrl_layout_snackbar_include=0x7f0b003a;
-    public static final int notification_action=0x7f0b003b;
-    public static final int notification_action_tombstone=0x7f0b003c;
-    public static final int notification_template_custom_big=0x7f0b003d;
-    public static final int notification_template_icon_group=0x7f0b003e;
-    public static final int notification_template_part_chronometer=0x7f0b003f;
-    public static final int notification_template_part_time=0x7f0b0040;
-    public static final int select_dialog_item_material=0x7f0b0041;
-    public static final int select_dialog_multichoice_material=0x7f0b0042;
-    public static final int select_dialog_singlechoice_material=0x7f0b0043;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b0044;
-    public static final int tambahjadwal_layout=0x7f0b0045;
+    public static final int newslayout=0x7f0b003b;
+    public static final int notification_action=0x7f0b003c;
+    public static final int notification_action_tombstone=0x7f0b003d;
+    public static final int notification_template_custom_big=0x7f0b003e;
+    public static final int notification_template_icon_group=0x7f0b003f;
+    public static final int notification_template_part_chronometer=0x7f0b0040;
+    public static final int notification_template_part_time=0x7f0b0041;
+    public static final int select_dialog_item_material=0x7f0b0042;
+    public static final int select_dialog_multichoice_material=0x7f0b0043;
+    public static final int select_dialog_singlechoice_material=0x7f0b0044;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b0045;
+    public static final int tambahjadwal_layout=0x7f0b0046;
   }
   public static final class menu {
     public static final int menu_main=0x7f0c0000;

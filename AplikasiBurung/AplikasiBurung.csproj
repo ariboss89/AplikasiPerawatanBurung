@@ -84,6 +84,8 @@
     <Compile Include="Services\MyFirebaseMessagingService.cs" />
     <Compile Include="Services\MyAlarmReceiver.cs" />
     <Compile Include="Helper\AppPreferences.cs" />
+    <Compile Include="Activities\HybridWebview.cs" />
+    <Compile Include="Activities\NewsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -289,6 +291,10 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\voermb.jpeg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NewsLayout.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
