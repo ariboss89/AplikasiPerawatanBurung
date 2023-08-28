@@ -14,7 +14,7 @@ namespace AplikasiBurung.ListViews
 {
     public class History_ListView: BaseAdapter<Penjadwalan>
     {
-        TextView txtId, txtNama, txtTanggal, txtWaktu, txtStatus;
+        TextView txtId, txtNama, txtTanggal, txtWaktu, txtStatus, txtNamaBurung;
         
         public History_ListView(Activity activity, int listViewRow)
         {
@@ -69,12 +69,14 @@ namespace AplikasiBurung.ListViews
                 row = LayoutInflater.From(mContext).Inflate(Resource.Layout.HistoryListView_Layout, null, false);
             }
 
+            txtNamaBurung = row.FindViewById<TextView>(Resource.Id.txtNamaBurung);
             txtId = row.FindViewById<TextView>(Resource.Id.txtId);
             txtNama = row.FindViewById<TextView>(Resource.Id.txtNama);
             txtTanggal = row.FindViewById<TextView>(Resource.Id.txtTanggal);
             txtWaktu = row.FindViewById<TextView>(Resource.Id.txtWaktu);
             txtStatus = row.FindViewById<TextView>(Resource.Id.txtStatus);
 
+            txtNamaBurung.Text = listJadwal[position].Burung;
             txtId.Text = listJadwal[position].Id.ToString();
             txtNama.Text = listJadwal[position].NamaJadwal;
             txtTanggal.Text = (listJadwal[position].Tanggal).ToString("yyyy-MM-dd");

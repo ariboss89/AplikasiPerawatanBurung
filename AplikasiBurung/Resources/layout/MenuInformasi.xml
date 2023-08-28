@@ -69,7 +69,7 @@
                     android:id="@+id/imgCiri"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/myowl"/>
+                    android:src="@mipmap/myowl"/>
 
                 <TextView
                     android:layout_toRightOf="@id/imgCiri"
@@ -101,7 +101,7 @@
                     android:id="@+id/imgPerawatan"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/myowl"/>
+                    android:src="@mipmap/myowl"/>
 
                 <TextView
                     android:layout_toRightOf="@id/imgPerawatan"
@@ -133,7 +133,7 @@
                     android:id="@+id/imgPakan"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/myowl"/>
+                    android:src="@mipmap/myowl"/>
 
                 <TextView
                     android:layout_toRightOf="@id/imgPakan"

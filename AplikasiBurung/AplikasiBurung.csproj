@@ -86,6 +86,11 @@
     <Compile Include="Helper\AppPreferences.cs" />
     <Compile Include="Activities\HybridWebview.cs" />
     <Compile Include="Activities\NewsActivity.cs" />
+    <Compile Include="Activities\BurungActivity.cs" />
+    <Compile Include="Data\Db_Burung.cs" />
+    <Compile Include="Models\DataBurung.cs" />
+    <Compile Include="ListViews\DataBurung_ListView.cs" />
+    <Compile Include="Activities\DataBurungDetail_Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -206,10 +211,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\myowl.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher.xml">
       <SubType></SubType>
       <Generator></Generator>
@@ -295,6 +296,22 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\NewsLayout.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BurungLayout.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DataBurungListView_Layout.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\myowl.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DataBurungDetail_Layout.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

@@ -1,14 +1,20 @@
 ﻿<Properties StartupConfiguration="{0CA90A5F-AD7B-49D9-AF29-3259C9E29E44}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Activities/HistoryActivity.cs" relfile="Activities/HistoryActivity.cs" line="43" column="1" />
+      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/Activities/HistoryActivity.cs" relfile="Activities/HistoryActivity.cs" line="45" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
-  <MonoDevelop.Ide.ItemProperties.AplikasiBurung AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.RR8M3080SWF" AndroidDesignerPreferredDevice="Nexus 4" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.RR8M3080SWF" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Activities/NewsActivity.cs">
+  <MonoDevelop.Ide.ItemProperties.AplikasiBurung AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.d0e1d359" AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/layout/DataBurungDetail_Layout.xml">
     <Files>
-      <File FileName="Activities/MainActivity.cs" Line="141" Column="10" />
-      <File FileName="Resources/layout/MainLayout.xml" Line="1" Column="1" />
-      <File FileName="Activities/NewsActivity.cs" Line="53" Column="6" />
+      <File FileName="Services/MyAlarmReceiver.cs" />
+      <File FileName="Resources/layout/DataBurungListView_Layout.xml" />
+      <File FileName="Activities/DataBurungDetail_Activity.cs" />
+      <File FileName="Resources/layout/DataBurungDetail_Layout.xml" Line="169" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,17 +22,21 @@
           <Node name="AplikasiBurung" expanded="True" selected="True">
             <Node name="AplikasiBurung" expanded="True">
               <Node name="Activities" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="ListViews" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
                 <Node name="layout" expanded="True" />
               </Node>
+              <Node name="SD" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.d0e1d359" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

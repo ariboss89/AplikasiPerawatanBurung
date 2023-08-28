@@ -36,12 +36,11 @@ namespace AplikasiBurung.Activities
     [Activity(Label = "Perawatan Burung", MainLauncher = true)]
     public class MainActivity : Activity
     {
-
         Jadwal_ListView jadwalListView;
         List<Penjadwalan> listJadwal = new List<Penjadwalan>();
         ListView lvJadwal;
         Database db = new Database();
-        FloatingActionButton btnJadwal, btnInfo, btnHistory, btnNews;
+        FloatingActionButton btnJadwal, btnInfo, btnHistory, btnNews, btnBurung;
         [Obsolete]
         AppPreferences apps = new AppPreferences(Application.Context);
 
@@ -61,11 +60,13 @@ namespace AplikasiBurung.Activities
             btnInfo = FindViewById<FloatingActionButton>(Resource.Id.fabInfo);
             btnHistory = FindViewById<FloatingActionButton>(Resource.Id.fabHistory);
             btnNews = FindViewById<FloatingActionButton>(Resource.Id.fabNews);
+            btnBurung = FindViewById<FloatingActionButton>(Resource.Id.fabBurung);
 
             btnJadwal.Click += BtnJadwal_Click;
             btnInfo.Click += BtnInfo_Click;
             btnHistory.Click += BtnHistory_Click;
             btnNews.Click += BtnNews_Click;
+            btnBurung.Click += BtnBurung_Click;
 
             try
             {
@@ -138,6 +139,13 @@ namespace AplikasiBurung.Activities
 
            // Thread ctThread = new Thread(LoadData);
 
+        }
+
+        private void BtnBurung_Click(object sender, EventArgs e)
+        {
+            Intent intentx = new Intent(Application.Context, typeof(BurungActivity));
+            intentx.SetFlags(ActivityFlags.NewTask);
+            StartActivity(intentx);
         }
 
         private void BtnNews_Click(object sender, EventArgs e)

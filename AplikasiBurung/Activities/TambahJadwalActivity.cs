@@ -15,6 +15,7 @@ using AplikasiBurung.Data;
 using AplikasiBurung.Fragments;
 using AplikasiBurung.Models;
 using Java.Lang;
+using Java.Util;
 using static Android.Net.Http.SslCertificate;
 
 namespace AplikasiBurung.Activities
@@ -26,7 +27,11 @@ namespace AplikasiBurung.Activities
         EditText edtDate, edtTime, edtNamaJadwal;
         private int mYear, mMonth, mDay, mHour, mMinute;
         Database db = new Database();
+        Db_Burung dbBurung = new Db_Burung();
         ImageView imgBack;
+        Spinner spinBurung;
+        List<DataBurung> listBurung = new List<DataBurung>();
+        List<string> burungList = new List<string>();
 
         [Obsolete]
         protected override void OnCreate(Bundle savedInstanceState)
@@ -41,6 +46,7 @@ namespace AplikasiBurung.Activities
             btnTimePicker = FindViewById<Button>(Resource.Id.btnSetWaktu);
             imgBack = FindViewById<ImageView>(Resource.Id.imgBack);
             btnTambah = FindViewById<Button>(Resource.Id.btnTambah);
+            spinBurung = FindViewById<Spinner>(Resource.Id.spinBurung);
             btnDatePicker.Click += BtnDatePicker_Click;
             btnTimePicker.Click += BtnTimePicker_Click;
             btnTambah.Click += BtnTambah_Click;
@@ -49,6 +55,23 @@ namespace AplikasiBurung.Activities
             db.createDatabase();
 
             imgBack = FindViewById<ImageView>(Resource.Id.imgBack);
+
+            listBurung =dbBurung.selectTable();
+
+            if (listBurung.Count != 0)
+            {
+                var DistinctItems = listBurung.GroupBy(x => x.Id).Select(y => y.First());
+
+                foreach (var item in DistinctItems)
+                {
+                    burungList.Add(item.Nama);
+                }
+
+                ArrayAdapter<string> adapter = new ArrayAdapter<string>(Application.Context, Android.Resource.Layout.SimpleSpinnerDropDownItem, burungList);
+                adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+                spinBurung.Adapter = adapter;
+
+            }
         }
 
         public override void OnBackPressed()
@@ -83,6 +106,7 @@ namespace AplikasiBurung.Activities
 
                 Penjadwalan jadwal = new Penjadwalan()
                 {
+                    Burung = spinBurung.SelectedItem.ToString(),
                     NamaJadwal = edtNamaJadwal.Text,
                     Tanggal = Convert.ToDateTime(edtDate.Text),
                     Waktu = Convert.ToDateTime(edtTime.Text),

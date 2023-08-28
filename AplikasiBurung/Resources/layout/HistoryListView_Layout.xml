@@ -36,6 +36,15 @@
 						android:textColorHint="@color/colorBlack"
 						android:layout_width="match_parent"/>
 
+				<TextView
+						android:id="@+id/txtNamaBurung"
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textSize="11sp"
+						android:hint="Nama Burung"
+						android:textColorHint="@color/colorBlack"
+						android:layout_width="wrap_content"/>
+
 					<TextView
 						android:id="@+id/txtNama"
 						android:padding="5dp"

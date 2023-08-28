@@ -54,7 +54,7 @@ namespace AplikasiBurung.Services
                 if (dataBody != "" || dataBody != null)
                 {
                     CreateNotificationChannel(manise[0].Id.ToString());
-                    SendNotification(manise[0].Id.ToString(), dataBody);
+                    SendNotification(manise[0].Id.ToString(), dataBody, manise[0].Burung);
 
                     dataBody = null;
 
@@ -90,7 +90,7 @@ namespace AplikasiBurung.Services
             notificationManager.CreateNotificationChannel(channel);
         }
 
-        private void SendNotification(string Id, string body)
+        private void SendNotification(string Id, string body, string burung)
         {
             var intent = new Intent(Application.Context, typeof(MainActivity));
             intent.PutExtra("Id", Id);
@@ -100,7 +100,7 @@ namespace AplikasiBurung.Services
             var defaultSoundUri = RingtoneManager.GetDefaultUri(RingtoneType.Notification);
             var notificationBuilder = new NotificationCompat.Builder(Application.Context, Id)
                 .SetSmallIcon(Resource.Drawable.calendar)
-                .SetContentTitle("WAKTUNYA MELAKSANAKAN JADWAL !!!")
+                .SetContentTitle("JADWAL BURUNG "+ burung.ToUpper()+" !!!")
                 .SetContentText(body)
                 .SetAutoCancel(true)
                 .SetSound(defaultSoundUri)

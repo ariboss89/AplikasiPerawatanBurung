@@ -12,6 +12,7 @@ namespace AplikasiBurung.Models
         public DateTime Tanggal { get; set; }
         public DateTime Waktu { get; set; }
         public string Status { get; set; }
+        public string Burung { get; set; }
     }
 }
 

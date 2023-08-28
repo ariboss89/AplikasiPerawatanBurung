@@ -21,7 +21,7 @@ namespace AplikasiBurung.Activities
 	{
 		ImageView imgBack;
 
-        Jadwal_ListView jadwalListView;
+        History_ListView jadwalListView;
         List<Penjadwalan> listJadwal = new List<Penjadwalan>();
         Database db = new Database();
 
@@ -48,7 +48,7 @@ namespace AplikasiBurung.Activities
 
             if (list != null)
             {
-                jadwalListView = new Jadwal_ListView(this, list);
+                jadwalListView = new History_ListView(this, list);
                 lvHistory.Adapter = jadwalListView;
             }
 

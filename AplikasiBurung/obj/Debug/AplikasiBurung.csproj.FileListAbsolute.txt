@@ -2,6 +2,7 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/googsvcsjson/values/goog_svcs_json.xml
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/build.props
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/adb.props
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.AssemblyReference.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res.flag
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/79D2E2103213D2C2-files.cache
@@ -39,9 +40,6 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/lp/121/jl/files.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/lp/126/jl/files.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/lp/130/jl/files.cache
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/R.txt
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/R.cs.flag
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.CoreCompileInputs.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/AplikasiBurung.dll
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/AplikasiBurung.pdb
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/com.ari89tech.aplikasiburung.apk
@@ -49,6 +47,8 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/com.ari89tech.aplikasiburung-Signed.aab
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/com.ari89tech.aplikasiburung-Signed.apk
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/bin/Debug/com.ari89tech.aplikasiburung-Signed.apk.idsig
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/R.cs.flag
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.CoreCompileInputs.cache
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.dll
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.pdb
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/bin/com.ari89tech.aplikasiburung.apk
@@ -88,7 +88,6 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/jadwallistview_layout.xml
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/historylayout.xml
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/historylistview_layout.xml
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/myowl.png
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-hdpi/ic_launcher_adaptive_back.png
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-hdpi/ic_launcher_adaptive_fore.png
@@ -111,6 +110,11 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/pakanlelemb.jpg
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/drawable/voermb.jpeg
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/newslayout.xml
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/burunglayout.xml
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/databurunglistview_layout.xml
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/mipmap-xxxhdpi/myowl.png
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/res/layout/databurungdetail_layout.xml
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/R.txt
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/uploadflags.txt
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/resolvedassemblies.hash
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/assets/AplikasiBurung.dll
@@ -363,6 +367,7 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/com/google/android/material/snackbar/Snackbar_SnackbarActionClickImplementor.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/com/google/firebase/messaging/R.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/com/google/firebase/R.java
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc6403dd08a4362573fc/DataBurung_ListView.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc6403dd08a4362573fc/History_ListView.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc6403dd08a4362573fc/Jadwal_ListView.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc6403dd08a4362573fc/Jadwal_ListView_ButtonClickListener.java
@@ -395,6 +400,8 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64a0e0a82d0db9a07d/WebAuthenticatorIntermediateActivity.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64b227089827305775/CircleImageView.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64b533b5d62f3e9b05/Burung_ListView.java
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64d30f48512a2d7121/BurungActivity.java
+/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64d30f48512a2d7121/DataBurungDetail_Activity.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64d30f48512a2d7121/DetailBurungActivity.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64d30f48512a2d7121/HistoryActivity.java
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/android/src/crc64d30f48512a2d7121/HybridWebview.java
@@ -524,4 +531,3 @@
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/ariramadhan/Projects/AplikasiBurung/AplikasiBurung/obj/Debug/AplikasiBurung.csproj.AssemblyReference.cache

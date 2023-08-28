@@ -15,6 +15,13 @@ namespace AplikasiBurung.SD
         public static Time Waktu { get; set; }
 
         public static string BodyNotification { get; set; }
+
+        //
+
+        public static int IdBurung { get; set; }
+        public static string Nama { get; set; }
+        public static DateTime TanggalMasuk { get; set; }
+        public static int Usia { get; set; }
     }
 }
 

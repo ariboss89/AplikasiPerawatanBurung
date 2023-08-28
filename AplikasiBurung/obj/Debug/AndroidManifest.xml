@@ -47,6 +47,8 @@
     <activity android:label="PerawatanInformasiActivity" android:name="crc64d30f48512a2d7121.PerawatanInformasiActivity" />
     <activity android:label="HistoryActivity" android:name="crc64d30f48512a2d7121.HistoryActivity" />
     <activity android:label="NewsActivity" android:name="crc64d30f48512a2d7121.NewsActivity" />
+    <activity android:label="BurungActivity" android:name="crc64d30f48512a2d7121.BurungActivity" />
+    <activity android:label="DataBurungDetail_Activity" android:name="crc64d30f48512a2d7121.DataBurungDetail_Activity" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />
