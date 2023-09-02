@@ -13,6 +13,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using AplikasiBurung.Data;
+using AplikasiBurung.ListViews;
 using AplikasiBurung.Models;
 using AplikasiBurung.SD;
 using SQLite;
@@ -32,6 +33,7 @@ namespace AplikasiBurung.Activities
         List<Penjadwalan> listJadwal = new List<Penjadwalan>();
         ImageView imgBack;
         List<DataBurung> listBurung = new List<DataBurung>();
+        ListView lvBurung;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -49,12 +51,16 @@ namespace AplikasiBurung.Activities
             txtVitamin = FindViewById<TextView>(Resource.Id.txtVitamin);
             btnVitamin = FindViewById<Button>(Resource.Id.btnVitamin);
 
+            lvBurung = FindViewById<ListView>(Resource.Id.lvBurung);
+
             txtNama.Text = StaticDetails.NamaBurung;
             txtUsiaAwal.Text = StaticDetails.Usia.ToString() + " HARI";
             txtTanggal.Text = StaticDetails.TanggalMasuk.ToString("yyyy-MM-dd");
 
             DateTime tglMasuk = StaticDetails.TanggalMasuk;
             DateTime tglSaatIni = DateTime.Now;
+
+            History_ListView historyAdapter;
 
             try
             {
@@ -103,7 +109,7 @@ namespace AplikasiBurung.Activities
 
                         double curr = Math.Round(tot) + awal;
 
-                        double saatIni = awal + curr-1;
+                        double saatIni = awal + curr - 1;
 
                         txtUsiaSaatIni.Text = curr.ToString() + " HARI";
                     }
@@ -117,6 +123,13 @@ namespace AplikasiBurung.Activities
 
                     progressJadwal.Progress = Convert.ToInt16(Math.Round(progress));
 
+
+                    var list = dataAll.Where(x => x.Status == "SELESAI").ToList();
+
+                    historyAdapter = new History_ListView(this, list);
+                    lvBurung.Adapter = historyAdapter;
+
+
                 }
                 else
                 {
@@ -128,9 +141,9 @@ namespace AplikasiBurung.Activities
 
                     double curr = Math.Round(tot) + awal;
 
-                    double saatIni = awal + curr-1;
+                    double saatIni = awal + curr - 1;
 
-                        txtUsiaSaatIni.Text = curr.ToString() + " HARI";
+                    txtUsiaSaatIni.Text = curr.ToString() + " HARI";
                 }
             }
             catch (Exception x)

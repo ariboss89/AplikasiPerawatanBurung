@@ -58,6 +58,7 @@ LinearLayout;obj/Debug/res/layout/menuinformasi.xml
 LinearLayout;obj/Debug/res/layout/newslayout.xml
 LinearLayout;obj/Debug/res/layout/tambahjadwal_layout.xml
 ListView;obj/Debug/res/layout/burunglayout.xml
+ListView;obj/Debug/res/layout/databurungdetail_layout.xml
 ListView;obj/Debug/res/layout/historylayout.xml
 ListView;obj/Debug/res/layout/iburunglayout.xml
 ListView;obj/Debug/res/layout/mainlayout.xml
